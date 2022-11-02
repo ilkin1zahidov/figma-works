@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+#user_first {
+    width: 100%;
+    padding: 40px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+
+}
+
+.user_img {
+    width: 445px;
+    height: 610px;
+    background-image: url("../img/profile/Rectangle\ 2user_img2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 15px 16px 0px #8795AF;
+    ;
+}
+
+.user--details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 65px;
+}
+
+
+.user--details .details_user .user_name {
+    font-weight: 700;
+    font-size: 49.6px;
+    color:#CE2D64
+
+}
+
+.user--details .details_user .user_profession {
+    font-weight: 300;
+    font-size: 31.44px;
+}
+
+
+.user--details .details_job p {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.user--details .details_job span {
+    font-weight: 500;
+}
+
+#description {
+    width: 100%;
+    height: 679px;
+    display: flex;
+    padding: 110px;
+    background-color:#CE2D64;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+
+
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.box .box_username {
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.box .box_username p {
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+  
+
+}
+
+.text {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 23.6056px;
+    line-height: 180.52%;
+    text-align: center;
+   
+}
+
+
+
