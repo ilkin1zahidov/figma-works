@@ -5,7 +5,10 @@
 }
 
 body {
+    width: 100%;
+    height: 100vh;
     font-family: 'Inter', sans-serif;
+
 }
 
 #user {
@@ -42,7 +45,7 @@ body {
 .user--detail .details--user .user--name {
 
     font-weight: 700;
-    font-size: 49.6px;
+    font-size: 50px;
     color: #361921;
 
 }
@@ -50,7 +53,7 @@ body {
 .user--detail .details--user .user--profession {
 
     font-weight: 300;
-    font-size: 31.4366px;
+    font-size: 32px;
     color: #000;
 
 }
@@ -59,7 +62,7 @@ body {
 
 .user--detail .details-job p{
     font-weight: 200;
-    font-size: 23.6056px;
+    font-size: 24px;
     color: #000;
 }
 
@@ -69,8 +72,8 @@ body {
 
 #description{
     width: 100%;
-    height: 600px;
-    padding: 110px;
+    height: auto;
+    padding: 50px;
     background-color: #361921;
     display: flex;
     flex-direction: column;
@@ -94,7 +97,10 @@ body {
         flex-direction: column;
         justify-content: flex-end;
         margin-bottom: 10px;
-    
+       
+}
+.box .box--username hr{
+    margin-top: 20px;
 }
 
 .box .box--username p{
@@ -111,9 +117,128 @@ body {
     margin-top: 30px;
     font-style: italic;
     font-weight: 400;
-    font-size: 23.6056px;
-    line-height: 180.52%;
+    font-size: 24px;
+    line-height: 181%;
     color: #fff;
 
     text-align: center;
 }
+
+#slide--info{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#slide--info img{
+    width: 1518px;
+    height: 679px;
+
+}
+
+.icon_left{
+    position: absolute;
+    top: 291px;
+    left: 353px;
+
+
+}
+
+.slide_text{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.icon_right{
+    position: absolute;
+    top: 427px;
+    right: 304px;
+}
+
+.slide_text{
+    position: absolute;
+    top: 357px;
+    left: 556px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+
+.slide_text-1{
+    position: absolute;
+    top: 400px;
+    left: 484px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+#design_quotes{
+    width: 100%;
+    height: auto;
+}
+
+#design_quotes h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+.design_form{
+    text-align: center;
+    margin-right: 160px;
+    position: relative;
+    margin-bottom: 70px;
+}
+.design_form input{
+    border-right-style: none;
+    border-left-style: none;
+    border-top-style: none;
+    width: 329px;
+    margin-left: 168px;
+    margin-bottom: 40px;
+    outline: none;
+}
+
+.send_submit{
+    width: 70px;
+    height: 25px;
+    background-color: #361921;
+    position: absolute;
+    top: 105px;
+    right: 428px;
+}
+
+.send_submit a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 10px;
+
+}
+
+#lima_copyright{
+    width: 100%;
+
+}
+
+.lima_design{
+    width: 1518px;
+    height: 46px;
+    background-color: #361921;
+
+}
+
+.lima_design p{
+    text-align: center;
+    font-weight: 200;
+    font-size: 10px;
+    color: #fff;
+    padding: 17px;
+}
+
+
